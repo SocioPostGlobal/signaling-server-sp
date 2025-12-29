@@ -1,0 +1,33 @@
+{
+  "name": "signaling-server",
+  "version": "1.0.0",
+  "description": "WebRTC signaling server for SocioPost (1-on-1 audio/video calls)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SocioPostGlobal/signaling-server.git"
+  },
+  "keywords": [
+    "webrtc",
+    "signaling",
+    "websocket",
+    "node",
+    "express",
+    "video-call",
+    "audio-call"
+  ],
+  "author": "SocioPost",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ws": "^8.18.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
